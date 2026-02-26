@@ -44,3 +44,8 @@ Thumbs.db
 *.md
 !README.md
 
+test_output.txt
+test_output_utf8.txt
+mapping_out.txt
+mapping_out_utf8.txt
+
