@@ -1,0 +1,46 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Django / DB
+db.sqlite3
+*.sqlite3
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Markdown: ignore all, except README.md
+*.md
+!README.md
+

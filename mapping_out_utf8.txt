@@ -1,0 +1,24 @@
+﻿.\venv\Scripts\python : Creating test database for 
+alias 'default'...
+At line:1 char:1
++ .\venv\Scripts\python manage.py test mappings.tests 
+--noinput > mappi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Creating t 
+   est d...as 'default'...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Got an error creating the test database: database 
+"test_githubanalyser" already exists
+
+
+Destroying old test database for alias 'default'...
+
+Got an error recreating the test database: database 
+"test_githubanalyser" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+
+
+Found 12 test(s).
